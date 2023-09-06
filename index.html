@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.4.4/math.min.js"></script>
+    <title>Funtions Calculator Site</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header">
+                <h2>
+                    Formula Calculation
+                </h2>
+            </div>
+            <div class="output">
+                <textarea id="result" rows="2" cols="40" readonly ></textarea>
+            </div>
+        </header>
+        <div class="container-inner">
+            <input type="date" id="Date" required>
+            <form id="form">
+                
+                
+                <input type="text" id="CalArea"  contentEditable="true"  autocomplete="off" placeholder="">
+                <button onclick="getOutput()">Calculate</button>
+                
+            </form>
+            <div id="suggestion-box" class="suggestion-box"></div>
+        </div>
+        
+
+    </div>
+
+
+
+
+
+
+
+
+
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>

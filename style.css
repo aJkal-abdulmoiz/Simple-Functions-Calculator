@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  body {
+    background-color: rgb(45, 39, 39);
+  }
+  
+  .container{
+    background-color:rgb(120, 122, 123);
+    width: 50%;
+    height:50%;
+    margin-top: 100px;
+    margin-left: 100px;
+    padding-left: 10px;
+    padding-top: 20px;
+    border-radius: 5px;
+    padding-bottom: 82px;
+    position: relative;
+    overflow: hidden;
+    min-width: 60%;
+  }
+
+  #result{
+    width: 32%;
+    height: 48px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    font-size: large;
+  }
+
+  #CalArea{
+    width: 40rem;
+    max-width: 60rem;
+    height: 60px;
+    font-size: medium;
+  }
+
+#Date{
+    width: 40rem;
+    max-width: 60rem;
+    height: 30px;
+    background-color: rgb(144, 148, 152);
+    font-size: medium;
+}
+
+.suggestion-box {
+    position: absolute;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    max-height: 100px;
+    overflow-y: auto;
+}
+
+.suggestion {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.suggestion:hover {
+    background-color: #ddd;
+}
+
+
+.variable-button {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 2px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.variable-button:hover {
+  background-color: #e0e0e0;
+}
+
+#suggestion-box {
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  width: 200px;
+  max-height: 200px;
+  overflow-y: auto;
+  display: none;
+}
+
+.suggestion {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.suggestion:hover {
+  background-color: #f0f0f0;
+}
